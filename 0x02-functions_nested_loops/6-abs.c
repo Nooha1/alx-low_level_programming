@@ -1,18 +1,18 @@
 #include "main.h"
-#include <limits.h>
+#include <stdlib.h>
 #include <stdio.h>
 
 /**
  * _abs - function computs the absulute value of an integer.
- * @r: parameter used.
+ * @n: parameter used.
  *
  * Return: 0.
  */
-int _abs(int r)
+int _abs(int n)
 {
-	int n = _abs(r);
+	int r = abs(n);
 
-	_putchar(n);
+	_putchar(r);
 	_putchar('\n');
 	return (0);
 }

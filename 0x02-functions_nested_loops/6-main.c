@@ -8,10 +8,5 @@
  */
 int main(void)
 {
-	int r;
-	int n = 1;
-
-	r = _abs(n);
-	printf("%d\n", r);
 	return (0);
 }
