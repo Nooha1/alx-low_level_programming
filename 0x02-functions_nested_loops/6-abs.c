@@ -4,14 +4,15 @@
 
 /**
  * _abs - function computs the absulute value of an integer.
- * @r:^parameter used.
+ * @r: parameter used.
  *
  * Return: 0.
  */
 int _abs(int r)
 {
-	_abs(r);
-	_putchar(r);
+	int n = _abs(r);
+
+	_putchar(n);
 	_putchar('\n');
 	return (0);
 }
