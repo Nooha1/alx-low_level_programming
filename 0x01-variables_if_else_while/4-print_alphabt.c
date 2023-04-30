@@ -11,7 +11,7 @@ int main(void)
 
 	while (c <= 'z')
 	{
-		if (c != 'e' && c != 'q')
+		if (c >= 'a' && c <= 'z' && c != 'e' && c != 'q')
 		{
 		putchar(c);
 		}
