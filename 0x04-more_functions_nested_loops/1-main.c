@@ -1,14 +1,16 @@
 #include "main.h"
 #include <stdio.h>
+#include <ctype.h>
 /**
- * main - cheks for digits
+ * main - checks for digits
  *
  * Return: always 0.
  */
 int main(void)
 {
-	int c = '0';
-
-	printf("%d: %d\n", c, _isdigit(c));
+	char c;
+       
+	c = '0';
+	printf("%c: %d\n", c, _isdigit(c));
 	return (0);
 }
