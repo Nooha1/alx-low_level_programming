@@ -11,7 +11,7 @@ int _isupper(int c)
 	/* @c: parameter char*/
 	/* Return: 1 if upper, otherwise 0.*/
 {
-	if (c <= 'A' && c >= 'Z')
+	if (c <= 'A' || c >= 'Z')
 	{
 		return (1);
 		printf("n");
